@@ -1,0 +1,42 @@
+body{
+    background-color: #aec2d5;
+}
+.flex-container{
+box-sizing: border-box;
+min-height: 20vh;
+gap: 40px;
+display: flex;
+font-size: 30px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+align-items: flex-end;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.item2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #133258;
+    font-size: 50px;
+}
+.flex-container2{
+box-sizing: border-box;
+min-height: 10vh;
+gap: 70px;
+display: flex;
+font-size: 30px;
+font-family:Arial, Helvetica, sans-serif;
+align-items: flex-end;
+justify-content: space-evenly;
+flex-wrap: wrap;
+color: white;
+background-color: #371c0b;
+}
+.grid-container {
+    grid-template-columns:  1fr 2fr 1fr;
+    display: grid;
+    gap: 100px;
+    font-size: 20px;
+}
+input{
+    background-color:#5a79a0;
+    font-size: 25px;
+}
